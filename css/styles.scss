@@ -3,9 +3,11 @@ $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
-$color-teal: #17A2B8
+$color-teal: #17A2B8;
+$color-mid: #901cad; 
 
-$body-font "Open Sans", sans-serif;
+
+$body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
 
 body {
@@ -62,7 +64,7 @@ padding: 10px;
     border: solid $color-secondary;
 }
 
-#carouselModal {
+#carouselButton {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -75,7 +77,7 @@ padding: 10px;
    }  
 }
 
-#reserveButton {
+#reserveModal {
     .modal-header {
      background-color: $color-teal;
      color: white;

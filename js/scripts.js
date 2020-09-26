@@ -15,12 +15,12 @@ $(function() {
 
 $(function() {
     $("#reserveButton").click(function() {
-        $("#reserveButton").modal("show");   
+        $("#reserveModal").modal("show");   
     });
 });
 
 $(function() {
     $("#logineButton").click(function() {
-        $("#loginButton").modal("show");   
+        $("#loginModal").modal("show");   
     });
 });
